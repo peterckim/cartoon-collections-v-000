@@ -14,7 +14,7 @@ end
 # use .any?
 def long_planeteer_calls(calls)
   calls.any? do |call|
-    
+    call.length
 end
 
 
